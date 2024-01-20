@@ -11,14 +11,15 @@ import { ContactDetailComponent } from './contacts/contact-detail/contact-detail
 
 @NgModule({
   declarations: [
+  ],
+  imports: [
     AppComponent,
+    BrowserModule,
+    AppRoutingModule,
     HeaderComponent,
     ContactsComponent,
     ContactListComponent,
     ContactDetailComponent
-  ],
-  imports: [
-    BrowserModule
     ],
   providers: [],
 })
