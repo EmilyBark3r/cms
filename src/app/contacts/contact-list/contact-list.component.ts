@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Contact } from '../contact.model';
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-contact-list',
   standalone: true,
-  imports: [],
+  imports: [NgFor],
   templateUrl: './contact-list.component.html',
   styleUrl: './contact-list.component.css'
 })
